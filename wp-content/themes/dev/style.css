@@ -1,0 +1,170 @@
+/*
+ Theme Name:   Tema Dev
+ Theme URI:    https://vincenzolagrotta.herokuapp.com
+ Description:  Dev Theme with Bootstrap
+ Author:       Vincenzo Lagrotta
+ Author URI:   https://vincenzolagrotta.herokuapp.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  temadev
+*/
+
+/*** GENERALI ***/
+* {
+    font-family: 'belgrano';
+  }
+  a {
+      text-decoration: none;
+      color: black;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  
+  a:hover {
+    color: #cc8f1c;
+  }
+
+  .clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+  }
+  
+  /**** HEADER *****/
+
+  header{
+    text-align: center;
+  }
+
+  main{
+      padding: 1%;
+  }  
+
+  .col-sm-3.sinistra p {
+    color: #cc8f1c;
+    font-weight: bold;
+    margin-top: -11px;
+    margin-bottom: 1rem;
+    font-size: 70%;
+    margin-left: 2%;
+    font-family: 'belgrano';
+    letter-spacing: 2px;
+  }
+  
+  .col-sm-3.sinistra h2 {
+    font-family: "great vibes";
+    font-size: 282%;
+  }
+  
+  .header__menu{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2%;
+  }
+
+  /**** BLOG-HOME PAGE *****/
+  .blog .content article {
+    text-align: center;
+    width: 50%;
+    float: left;
+  }
+
+  .blog .content article .details-article {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  /**** PAGINE *****/  
+  .content-page{
+    padding: 2%;
+  }
+  
+  .content-page article{
+    display: flex;
+  }
+
+  .content-page .about-page{
+    margin-right: 1%;
+  }
+
+   /**** ARTICOLI *****/
+  main .content{
+    padding: 2%;
+  }
+
+  article{
+    margin-bottom: 4%;
+  }
+
+  figure{
+    margin: 3% auto;
+    display: block;
+  }
+
+   /**** PAGINA SINGOLA ARTICOLO *****/
+  .single .single-content{
+    padding: 2%;
+    text-align: center;
+  }
+
+   /**** TAG IN HOME PAGE *****/
+  article .categories a{
+    color: #cc8f1c;
+  }
+
+  /**** COMMENTI *****/
+  .comment-author .vcard img{
+    border-radius: 100%;
+  }
+  #comments{
+    margin-top: 9%;
+    padding: 3%;
+  }
+  .comment-form-comment{
+    display: inline-grid;
+  }
+  .comment-form-comment textarea{
+    background: #eee;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  .comment-form-url{
+    display: none;
+  }
+  .form-submit input{
+    background: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+  }
+
+  /**** FOOTER *****/
+  .finalfooter{
+    color: #cc8f1c;
+    padding: 2%;
+  }
+
+
+/** MEDIA QUERY **/
+/* Mobile Styles */ 
+@media only screen and (max-width: 400px) {
+  .blog .content article {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .blog .content article {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+}
