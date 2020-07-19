@@ -1,0 +1,6 @@
+Jul 19 2020 18:27:57
+{"Number":2,"Message":"rmdir(C:\\xampp\\htdocs\\vishop\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\tc1ydemp5yoz): Directory not empty","File":"C:\\xampp\\htdocs\\vishop\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filesystem\\class-ai1wm-directory.php","Line":72}
+
+Jul 19 2020 18:27:57
+{"Number":2,"Message":"filesize(): stat failed for C:\\xampp\\htdocs\\vishop\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\tc1ydemp5yoz\\localhost-vishop-20200719-182752-pvqayo.wpress","File":"C:\\xampp\\htdocs\\vishop\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-archiver.php","Line":231}
+
